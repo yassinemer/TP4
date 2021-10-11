@@ -1,0 +1,21 @@
+<h1>Liste des personnes</h1>
+<!-- <ul>
+    <li *ngFor="let t of personnes ">
+       
+         Nom : {{t.nom}} age : Nom : {{t.age}}
+        <input type="checkbox" [checked]="t.isEtudiant"/> Etudiant
+        
+
+        <app-personne [name]="t.nom" [age]="t.age" [etud]="t.isEtudiant">
+        </app-personne>
+        
+    </li>
+</ul> -->
+
+
+<h3>Liste des personnes avec Objet</h3>
+<ul>
+ <li *ngFor= "let p of lespersonnes">
+ <app-lapersonne [pers]="p"></app-lapersonne>
+ </li>
+</ul>
