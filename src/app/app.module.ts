@@ -5,13 +5,17 @@ import { AppComponent } from './app.component';
 import { ListpersonnesComponent } from './listpersonnes/listpersonnes.component';
 import { PersonneComponent } from './personne/personne.component';
 import { LapersonneComponent } from './lapersonne/lapersonne.component';
+import { PizzaComponent } from './pizza/pizza.component';
+import { ListPizzasComponent } from './list-pizzas/list-pizzas.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListpersonnesComponent,
     PersonneComponent,
-    LapersonneComponent
+    LapersonneComponent,
+    PizzaComponent,
+    ListPizzasComponent
   ],
   imports: [
     BrowserModule
