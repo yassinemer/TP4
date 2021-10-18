@@ -3,6 +3,17 @@
        
 <img class="rounded-circle" src="{{p.image}}" /> 
      <p class="d-flex justify-content-between">Prix: {{p.prix}}</p>   
-    
-    
 
+     <button name="afficher commentaire"  (click)="aff()">Afficher</button>
+
+    <div [hidden]="t">
+
+        <ul class="list-group container">
+            <li *ngFor="let c of p.commentaire" [ngClass]="{'list-group-item':true, 'bg-warning':!p.vegetarien}">
+    
+                <app-comment [comm]="c" ></app-comment>
+            </li>
+        </ul>
+
+    </div>
+   

@@ -1,6 +1,6 @@
 <h3>Nos choix de pizzas</h3>
 <ul class="list-group">
  <li *ngFor= "let pi of lespizzas">
- <app-pizza [p]="pi"></app-pizza>
+ <app-pizza [p]="pi"[ngClass]="{'list-group-item':true, 'bg-warning': !pi.vegetarien}" ></app-pizza>
  </li>
 </ul>

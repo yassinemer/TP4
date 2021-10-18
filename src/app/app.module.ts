@@ -7,6 +7,7 @@ import { PersonneComponent } from './personne/personne.component';
 import { LapersonneComponent } from './lapersonne/lapersonne.component';
 import { PizzaComponent } from './pizza/pizza.component';
 import { ListPizzasComponent } from './list-pizzas/list-pizzas.component';
+import { CommentComponent } from './comment/comment.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ListPizzasComponent } from './list-pizzas/list-pizzas.component';
     PersonneComponent,
     LapersonneComponent,
     PizzaComponent,
-    ListPizzasComponent
+    ListPizzasComponent,
+    CommentComponent
   ],
   imports: [
     BrowserModule

@@ -9,6 +9,11 @@ export class PizzaComponent implements OnInit {
 
   @Input() p:Pizza=new Pizza();
 
+  t:boolean=true;
+  aff() {
+    this.t=!this.t;
+
+  }
   constructor() { }
 
   ngOnInit(): void {
